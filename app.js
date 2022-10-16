@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb+srv://PavanBhavaraju:Hanuman-11@cluster0.5ys8h.mongodb.net/todolistDB?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://PavanBhavaraju:pass@cluster0.5ys8h.mongodb.net/todolistDB?retryWrites=true&w=majority");
 
 const itemsSchema = new mongoose.Schema({
   name: {
